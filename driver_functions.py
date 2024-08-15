@@ -8,7 +8,7 @@ def set_driver_path(path):
         # sys.exit(1)
 
 
-def start_webdriver(driver_path):
+def start_webdriver(driver_path=''):
     set_driver_path(driver_path)
     try:
         options = Options()
